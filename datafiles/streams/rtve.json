@@ -1,0 +1,35 @@
+{
+  "name": "rtve.es",
+  "attributes": {
+    "geolocked": false,
+    "region": "ES",
+    "language": "spa"
+  },
+  "streams": [
+    {"name": "la-1",
+      "title": "La 1",
+      "url": "http://www.rtve.es/directo/la-1/"},
+    {"name": "la-2",
+      "title": "La 2",
+      "url": "http://www.rtve.es/directo/la-2/"},
+    {"name": "teledeporte",
+      "title": "tdp",
+      "url": "http://www.rtve.es/directo/teledeporte/"},
+    {"name": "canal-24h",
+      "title": "24h",
+      "url": "http://www.rtve.es/directo/canal-24h/"},
+    {"name": "mas-24",
+      "title": "+24h",
+      "url": "http://www.rtve.es/noticias/mas-24/"},
+    {"name": "mas-tdp",
+      "title": "+tdp",
+      "url": "http://www.rtve.es/deportes/mas-tdp/directo/",
+      "attributes": {
+        "geolocked": true}},
+    {"name": "catalunya",
+      "title": "La 1 Catalunya",
+      "url": "http://www.rtve.es/television/catalunya/directo/",
+      "attributes": {
+        "language": "cat"}}
+  ]
+}
