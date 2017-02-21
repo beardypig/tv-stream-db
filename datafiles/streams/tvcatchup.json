@@ -1,0 +1,25 @@
+{
+  "name": "tvcatchup.com",
+  "attributes": {
+    "geolocked": false,
+    "region": "GB",
+    "language": "eng"
+  },
+  "streams": [
+    {"name": "bbcone",
+      "title": "BBC One",
+      "url": "http://tvcatchup.com/watch/bbcone"},
+    {"name": "bbctwo",
+      "title": "BBC Two",
+      "url": "http://tvcatchup.com/watch/bbctwo"},
+    {"name": "itv",
+      "title": "ITV",
+      "url": "http://tvcatchup.com/watch/itv"},
+    {"name": "channel4",
+      "title": "Channel 4",
+      "url": "http://tvcatchup.com/watch/channel4"},
+    {"name": "five",
+      "title": "Five",
+      "url": "http://tvcatchup.com/watch/five"}
+  ]
+}

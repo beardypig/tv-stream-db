@@ -19,3 +19,9 @@ body {
 .stream-attribute-bad {
     color: red;
 }
+
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}

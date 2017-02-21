@@ -1,0 +1,25 @@
+{
+  "name": "tvplayer.com",
+  "attributes": {
+    "geolocked": true,
+    "region": "GB",
+    "language": "eng"
+  },
+  "streams": [
+    {"name": "bbcone",
+      "title": "BBC One",
+      "url": "http://tvplayer.com/watch/bbcone"},
+    {"name": "bbctwo",
+      "title": "BBC Two",
+      "url": "http://tvplayer.com/watch/bbctwo"},
+    {"name": "itv",
+      "title": "ITV",
+      "url": "http://tvplayer.com/watch/itv"},
+    {"name": "channel4",
+      "title": "Channel 4",
+      "url": "http://tvplayer.com/watch/channel4"},
+    {"name": "five",
+      "title": "Five",
+      "url": "http://tvplayer.com/watch/five"}
+  ]
+}
