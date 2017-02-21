@@ -63,6 +63,7 @@ class Dict(Validator):
                 if skey.key not in value:
                     continue
                 skey = skey.key
+                cvalue = value[skey]
             elif skey not in value and not svalue.has_default:
                 raise ValidationError("Required key `{0}` missing".format(skey), path)
             elif skey not in value and svalue.has_default:
