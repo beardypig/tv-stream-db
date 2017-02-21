@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Live TV Stream Listing</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flag-icon.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/streamdb.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+    <table id="streams" class="table table-sm">
+      <thead>
+        <tr>
+          <th>Channel Name</th>
+          <th class="fit text-center">Region</th>
+          <th class="fit text-center">DRM</th>
+          <th class="fit text-center">Geo-Locked</th>
+          <th class="fit text-center">Authenticated</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for provider in sorted(streams.keys()) %}
+          <tr>
+            <th scope="row" colspan="5">{{ provider }}</th>
+          </tr>
+
+          {% for stream in streams[provider] %}
+            <tr>
+              <td>
+                  <a href="{{ stream["url"] }}" target="_blank">{{ stream["title"] }}</a>
+                  {% if stream["attributes"]["hd"] %}
+                    <span class="stream-attribute" aria-hidden="true" title="Available in High Definition">HD</span>
+                  {% endif %}
+              </td>
+              <td class="fit text-center"><span class="flag-icon flag-icon-{{ stream["attributes"]["region"]|lower }}" aria-hidden="true" title="{{ stream["attributes"]["region"] }}"></span></td>
+              <td class="fit text-center">
+                  {% if stream["attributes"]["drm"] %}
+                    <i class="stream-attribute-bad">Yes</i>
+                  {% else %}
+                    <i class="stream-attribute-good">No</i>
+                  {% endif %}
+              </td>
+              <td class="fit text-center">
+                  {% if stream["attributes"]["geolocked"] %}
+                    <i class="stream-attribute-bad" title="Geo-locked to {{ stream["attributes"]["region"] }}">Yes</i>
+                  {% else %}
+                    <i class="stream-attribute-good">No</i>
+                  {% endif %}
+              </td>
+              <td class="fit text-center">
+                  {% if stream["attributes"]["authentication"] %}
+                    <i class="stream-attribute-bad">Yes</i>
+                  {% else %}
+                    <i class="stream-attribute-good">No</i>
+                  {% endif %}
+              </td>
+            </tr>
+          {%  endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
