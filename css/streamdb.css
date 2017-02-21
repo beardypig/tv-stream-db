@@ -1,0 +1,27 @@
+body {
+    padding-top: 5rem;
+}
+
+.stream-attribute {
+    font-variant: small-caps;
+    vertical-align: super;
+    font-size: x-small;
+}
+
+.stream-attribute-drm:after {
+    content: "DRM";
+}
+
+.stream-attribute-good {
+    color: green;
+}
+
+.stream-attribute-bad {
+    color: red;
+}
+
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
