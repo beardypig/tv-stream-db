@@ -27,7 +27,7 @@
           <th class="fit text-center">Region</th>
           <th class="fit text-center">DRM</th>
           <th class="fit text-center">Geo-Locked</th>
-          <th class="fit text-center">Authenticated</th>
+          <th class="fit text-center">Subscription</th>
         </tr>
       </thead>
       <tbody>
@@ -60,7 +60,7 @@
                   {% endif %}
               </td>
               <td class="fit text-center">
-                  {% if stream["attributes"]["authentication"] %}
+                  {% if stream["attributes"]["subscription"] %}
                     <i class="stream-attribute-bad">Yes</i>
                   {% else %}
                     <i class="stream-attribute-good">No</i>

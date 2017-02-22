@@ -14,6 +14,7 @@ streams = Schema(Dict({
         "authentication": Bool(default=False),
         "drm": Bool(default=False),
         "hd": Bool(default=False),
+        "subscription": Bool(default=False)
     }, default={}),
     "streams": Repeating(
         Dict({
@@ -26,7 +27,8 @@ streams = Schema(Dict({
                 Optional("language"): Text(),
                 Optional("authentication"): Bool(),
                 Optional("drm"): Bool(),
-                Optional("hd"): Bool()
+                Optional("hd"): Bool(),
+                Optional("subscription"): Bool()
             }, default={})
         })
     )

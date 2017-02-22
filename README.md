@@ -21,6 +21,7 @@ The Files have the follow schema:
         "authentication": authenticated,    /* (Boolean) Optional: If the streams require authentication; Default=false */
         "drm": DRM,                         /* (Boolean) Optional: If the stream is protected by DRM; Default=false */
         "hd": HD,                           /* (Boolean) Optional: If the stream is available in High Definition; Default=false*/
+        "subscription": subscription,       /* (Boolean) Optional: If the stream requires are subscription to view, implies authentication; Default=false*/
     },
     "streams": [                            /* (List) Required: A list of the streams available from the provider */
         {                                   /* (Map) Required, Repeated: Information about a stream */

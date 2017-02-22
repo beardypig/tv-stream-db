@@ -23,6 +23,8 @@ def combine_streams(streams_dir):
                 a = dict(sdata["attributes"])
                 a.update(s.get("attributes", {}))
                 s["attributes"] = a
+                if s["attributes"]["subscription"]:
+                    s["attributes"]["authentication"] = True
                 streams_out[sdata["name"]].append(s)
     return streams_out
 
