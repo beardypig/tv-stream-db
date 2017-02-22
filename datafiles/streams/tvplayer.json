@@ -7,19 +7,514 @@
   },
   "streams": [
     {"name": "bbcone",
-      "title": "BBC One",
-      "url": "http://tvplayer.com/watch/bbcone"},
+     "title": "BBC One",
+     "url": "http://www.tvplayer.com/watch/bbcone"
+    },
     {"name": "bbctwo",
-      "title": "BBC Two",
-      "url": "http://tvplayer.com/watch/bbctwo"},
+     "url": "http://www.tvplayer.com/watch/bbctwo",
+     "title": "BBC Two"
+    },
     {"name": "itv",
-      "title": "ITV",
-      "url": "http://tvplayer.com/watch/itv"},
+     "url": "http://www.tvplayer.com/watch/itv",
+     "title": "ITV"
+    },
     {"name": "channel4",
-      "title": "Channel 4",
-      "url": "http://tvplayer.com/watch/channel4"},
+     "url": "http://www.tvplayer.com/watch/channel4",
+     "title": "Channel 4"
+    },
     {"name": "five",
-      "title": "Five",
-      "url": "http://tvplayer.com/watch/five"}
+     "url": "http://www.tvplayer.com/watch/five",
+     "title": "Five"
+    },
+    {"name": "dave",
+     "url": "http://www.tvplayer.com/watch/dave",
+     "title": "Dave"
+    },
+    {"name": "really",
+     "url": "http://www.tvplayer.com/watch/really",
+     "title": "Really"
+    },
+    {"name": "yesterday",
+     "url": "http://www.tvplayer.com/watch/yesterday",
+     "title": "Yesterday"
+    },
+    {"name": "drama",
+     "url": "http://www.tvplayer.com/watch/drama",
+     "title": "Drama"
+    },
+    {"name": "home",
+     "url": "http://www.tvplayer.com/watch/home",
+     "title": "Home"
+    },
+    {"name": "4music",
+     "url": "http://www.tvplayer.com/watch/4music",
+     "title": "4Music"
+    },
+    {"name": "itv2",
+     "url": "http://www.tvplayer.com/watch/itv2",
+     "title": "ITV 2"
+    },
+    {"name": "itv3",
+     "url": "http://www.tvplayer.com/watch/itv3",
+     "title": "ITV 3"
+    },
+    {"name": "more4",
+     "url": "http://www.tvplayer.com/watch/more4",
+     "title": "More4"
+    },
+    {"name": "itv4",
+     "url": "http://www.tvplayer.com/watch/itv4",
+     "title": "ITV 4"
+    },
+    {"name": "itvbe",
+     "url": "http://www.tvplayer.com/watch/itvbe",
+     "title": "ITVBe"
+    },
+    {"name": "5star",
+     "url": "http://www.tvplayer.com/watch/5star",
+     "title": "5STAR"
+    },
+    {"name": "spike",
+     "url": "http://www.tvplayer.com/watch/spike",
+     "title": "Spike"
+    },
+    {"name": "quest",
+     "url": "http://www.tvplayer.com/watch/quest",
+     "title": "Quest"
+    },
+    {"name": "foodnetwork",
+     "url": "http://www.tvplayer.com/watch/foodnetwork",
+     "title": "Food Network"
+    },
+    {"name": "travelchannel",
+     "url": "http://www.tvplayer.com/watch/travelchannel",
+     "title": "Travel Channel"
+    },
+    {"name": "trutv",
+     "url": "http://www.tvplayer.com/watch/trutv",
+     "title": "TruTV"
+    },
+    {"name": "4seven",
+     "url": "http://www.tvplayer.com/watch/4seven",
+     "title": "4Seven"
+    },
+    {"name": "cnninternationaleurope",
+     "url": "http://www.tvplayer.com/watch/cnninternationaleurope",
+     "title": "CNN International Europe"
+    },
+    {"name": "bbcfour",
+     "url": "http://www.tvplayer.com/watch/bbcfour",
+     "title": "BBC Four"
+    },
+    {"name": "qvc",
+     "url": "http://www.tvplayer.com/watch/qvc",
+     "title": "QVC"
+    },
+    {"name": "betblackenttv",
+     "url": "http://www.tvplayer.com/watch/betblackenttv",
+     "title": "BET:BlackEntTV"
+    },
+    {"name": "lifetime",
+     "url": "http://www.tvplayer.com/watch/lifetime",
+     "title": "Lifetime",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "tlc",
+     "url": "http://www.tvplayer.com/watch/tlc",
+     "title": "TLC",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "w",
+     "url": "http://www.tvplayer.com/watch/w",
+     "title": "W",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "gold",
+     "url": "http://www.tvplayer.com/watch/gold",
+     "title": "GOLD",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "alibi",
+     "url": "http://www.tvplayer.com/watch/alibi",
+     "title": "Alibi",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "comedycentral",
+     "url": "http://www.tvplayer.com/watch/comedycentral",
+     "title": "Comedy Central",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "mtv",
+     "url": "http://www.tvplayer.com/watch/mtv",
+     "title": "MTV",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "comedycentralextra",
+     "url": "http://www.tvplayer.com/watch/comedycentralextra",
+     "title": "Comedy Central Extra",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "sonyentertainment",
+     "url": "http://www.tvplayer.com/watch/sonyentertainment",
+     "title": "Sony Entertainment",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "sonymoviechannel",
+     "url": "http://www.tvplayer.com/watch/sonymoviechannel",
+     "title": "Sony Movie Channel",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "history",
+     "url": "http://www.tvplayer.com/watch/history",
+     "title": "History",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "discovery",
+     "url": "http://www.tvplayer.com/watch/discovery",
+     "title": "Discovery",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "investigationdiscovery",
+     "url": "http://www.tvplayer.com/watch/investigationdiscovery",
+     "title": "Investigation Discovery",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "discoveryturbo",
+     "url": "http://www.tvplayer.com/watch/discoveryturbo",
+     "title": "Discovery Turbo",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "animalplanet",
+     "url": "http://www.tvplayer.com/watch/animalplanet",
+     "title": "Animal Planet",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "h2",
+     "url": "http://www.tvplayer.com/watch/h2",
+     "title": "H2",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "crimeplusinvestigation",
+     "url": "http://www.tvplayer.com/watch/crimeplusinvestigation",
+     "title": "Crime + Investigation",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "goodfood",
+     "url": "http://www.tvplayer.com/watch/goodfood",
+     "title": "Good Food",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "eden",
+     "url": "http://www.tvplayer.com/watch/eden",
+     "title": "Eden",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "nationalgeographic",
+     "url": "http://www.tvplayer.com/watch/nationalgeographic",
+     "title": "National Geographic",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "natgeowild",
+     "url": "http://www.tvplayer.com/watch/natgeowild",
+     "title": "Nat Geo Wild",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "eurosport1",
+     "url": "http://www.tvplayer.com/watch/eurosport1",
+     "title": "Eurosport 1",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "eurosport2",
+     "url": "http://www.tvplayer.com/watch/eurosport2",
+     "title": "Eurosport 2",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "cbeebies",
+     "url": "http://www.tvplayer.com/watch/cbeebies",
+     "title": "CBeebies"
+    },
+    {"name": "cbbc",
+     "url": "http://www.tvplayer.com/watch/cbbc",
+     "title": "CBBC"
+    },
+    {"name": "citv",
+     "url": "http://www.tvplayer.com/watch/citv",
+     "title": "CITV"
+    },
+    {"name": "nickelodeon",
+     "url": "http://www.tvplayer.com/watch/nickelodeon",
+     "title": "Nickelodeon",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "nickjunior",
+     "url": "http://www.tvplayer.com/watch/nickjunior",
+     "title": "Nick Junior",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "nickjrtoo",
+     "url": "http://www.tvplayer.com/watch/nickjrtoo",
+     "title": "Nick Jr Too",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "cartoonnetwork",
+     "url": "http://www.tvplayer.com/watch/cartoonnetwork",
+     "title": "Cartoon Network",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "boomerang",
+     "url": "http://www.tvplayer.com/watch/boomerang",
+     "title": "Boomerang",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "cartoonito",
+     "url": "http://www.tvplayer.com/watch/cartoonito",
+     "title": "Cartoonito",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "babytv",
+     "url": "http://www.tvplayer.com/watch/babytv",
+     "title": "BabyTV",
+     "attributes": {
+        "drm": true,
+        "subscription": true}
+    },
+    {"name": "thebox",
+     "url": "http://www.tvplayer.com/watch/thebox",
+     "title": "The Box"
+    },
+    {"name": "heat",
+     "url": "http://www.tvplayer.com/watch/heat",
+     "title": "Heat"
+    },
+    {"name": "smashhits",
+     "url": "http://www.tvplayer.com/watch/smashhits",
+     "title": "Smashhits"
+    },
+    {"name": "kiss",
+     "url": "http://www.tvplayer.com/watch/kiss",
+     "title": "KISS"
+    },
+    {"name": "magic",
+     "url": "http://www.tvplayer.com/watch/magic",
+     "title": "Magic"
+    },
+    {"name": "kerrang",
+     "url": "http://www.tvplayer.com/watch/kerrang",
+     "title": "Kerrang"
+    },
+    {"name": "heart",
+     "url": "http://www.tvplayer.com/watch/heart",
+     "title": "Heart"
+    },
+    {"name": "capitaltv",
+     "url": "http://www.tvplayer.com/watch/capitaltv",
+     "title": "Capital TV"
+    },
+    {"name": "clubland",
+     "url": "http://www.tvplayer.com/watch/clubland",
+     "title": "Clubland"
+    },
+    {"name": "chilled",
+     "url": "http://www.tvplayer.com/watch/chilled",
+     "title": "Chilled"
+    },
+    {"name": "channelaka",
+     "url": "http://www.tvplayer.com/watch/channelaka",
+     "title": "Channel AKA"
+    },
+    {"name": "nowthatswhaticallmusic",
+     "url": "http://www.tvplayer.com/watch/nowthatswhaticallmusic",
+     "title": "Now That's What I Call Music"
+    },
+    {"name": "colors",
+     "url": "http://www.tvplayer.com/watch/colors",
+     "title": "Colors"
+    },
+    {"name": "rishtey",
+     "url": "http://www.tvplayer.com/watch/rishtey",
+     "title": "Rishtey"
+    },
+    {"name": "zing",
+     "url": "http://www.tvplayer.com/watch/zing",
+     "title": "Zing"
+    },
+    {"name": "sonysab",
+     "url": "http://www.tvplayer.com/watch/sonysab",
+     "title": "Sony SAB"
+    },
+    {"name": "aajtak",
+     "url": "http://www.tvplayer.com/watch/aajtak",
+     "title": "Aaj Tak"
+    },
+    {"name": "news18india",
+     "url": "http://www.tvplayer.com/watch/news18india",
+     "title": "News 18 India"
+    },
+    {"name": "davejavu",
+     "url": "http://www.tvplayer.com/watch/davejavu",
+     "title": "Dave Ja Vu"
+    },
+    {"name": "yesterdayplus1",
+     "url": "http://www.tvplayer.com/watch/yesterdayplus1",
+     "title": "Yesterday +1"
+    },
+    {"name": "questplus1",
+     "url": "http://www.tvplayer.com/watch/questplus1",
+     "title": "Quest+1"
+    },
+    {"name": "foodnetworkplus1",
+     "url": "http://www.tvplayer.com/watch/foodnetworkplus1",
+     "title": "Food Network +1"
+    },
+    {"name": "travelchannelplus1",
+     "url": "http://www.tvplayer.com/watch/travelchannelplus1",
+     "title": "Travel Channel +1"
+    },
+    {"name": "qvcplus",
+     "url": "http://www.tvplayer.com/watch/qvcplus",
+     "title": "QVC Plus"
+    },
+    {"name": "forcestv",
+     "url": "http://www.tvplayer.com/watch/forcestv",
+     "title": "Forces TV"
+    },
+    {"name": "sino",
+     "url": "http://www.tvplayer.com/watch/sino",
+     "title": "SINO"
+    },
+    {"name": "bbcredbutton",
+     "url": "http://www.tvplayer.com/watch/bbcredbutton",
+     "title": "BBC Red Button"
+    },
+    {"name": "fashiontv",
+     "url": "http://www.tvplayer.com/watch/fashiontv",
+     "title": "Fashion TV"
+    },
+    {"name": "ucbtv",
+     "url": "http://www.tvplayer.com/watch/ucbtv",
+     "title": "UCBTV"
+    },
+    {"name": "revelationtv",
+     "url": "http://www.tvplayer.com/watch/revelationtv",
+     "title": "Revelation TV"
+    },
+    {"name": "godtv",
+     "url": "http://www.tvplayer.com/watch/godtv",
+     "title": "GOD TV"
+    },
+    {"name": "s4c",
+     "url": "http://www.tvplayer.com/watch/s4c",
+     "title": "S4C"
+    },
+    {"name": "bbcalba",
+     "url": "http://www.tvplayer.com/watch/bbcalba",
+     "title": "BBC Alba"
+    },
+    {"name": "communitychannel",
+     "url": "http://www.tvplayer.com/watch/communitychannel",
+     "title": "Community Channel"
+    },
+    {"name": "bbcnews",
+     "url": "http://www.tvplayer.com/watch/bbcnews",
+     "title": "BBC News"
+    },
+    {"name": "bloomberg",
+     "url": "http://www.tvplayer.com/watch/bloomberg",
+     "title": "Bloomberg"
+    },
+    {"name": "france24",
+     "url": "http://www.tvplayer.com/watch/france24",
+     "title": "France 24"
+    },
+    {"name": "nhkworld",
+     "url": "http://www.tvplayer.com/watch/nhkworld",
+     "title": "NHK World"
+    },
+    {"name": "aljazeera",
+     "url": "http://www.tvplayer.com/watch/aljazeera",
+     "title": "Al Jazeera"
+    },
+    {"name": "euronews",
+     "url": "http://www.tvplayer.com/watch/euronews",
+     "title": "Euronews"
+    },
+    {"name": "russiatoday",
+     "url": "http://www.tvplayer.com/watch/russiatoday",
+     "title": "Russia Today"
+    },
+    {"name": "bbcparliament",
+     "url": "http://www.tvplayer.com/watch/bbcparliament",
+     "title": "BBC Parliament"
+    },
+    {"name": "qvcbeauty",
+     "url": "http://www.tvplayer.com/watch/qvcbeauty",
+     "title": "QVC Beauty"
+    },
+    {"name": "qvcstyle",
+     "url": "http://www.tvplayer.com/watch/qvcstyle",
+     "title": "QVC Style"
+    },
+    {"name": "qvcextra",
+     "url": "http://www.tvplayer.com/watch/qvcextra",
+     "title": "QVC Extra"
+    }
   ]
 }
