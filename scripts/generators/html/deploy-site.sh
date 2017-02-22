@@ -1,17 +1,33 @@
 #!/bin/bash
-set -ex # Exit with nonzero exit code if anything fails
+set -e # Exit with nonzero exit code if anything fails
 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 
+build_dir=".dist/html"
+
+function log {
+    echo "[$(date --rfc-3339=seconds)]: $*" >&2
+}
+
 function doCompile {
-  ./compile.sh out
+    dist_dir=${1:-.dist}
+    log "Building HTML to ${dist_dir}"
+    mkdir -p "${dist_dir}"
+    pwd
+    script_dir=$(cd $(dirname $0) && pwd)
+
+    log "Compiling site template..."
+    env PYTHONPATH=${script_dir}/../../:${PYTHONPATH} python ${script_dir}/generate.py "${script_dir}/templates/" "datafiles/streams/" "${dist_dir}"
+
+    log "Copying static files..."
+    cp -r ${script_dir}/static/* "${dist_dir}/"
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     echo "Skipping deploy; just doing a build."
-    doCompile
+    doCompile "${build_dir}"
     exit 0
 fi
 
@@ -22,19 +38,19 @@ SHA=$(git rev-parse --verify HEAD)
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deploy)
-git clone $REPO out
-cd out
+git clone $REPO "${build_dir}"
+pushd "${build_dir}"
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-cd ..
+popd
 
 # Clean out existing contents
-rm -rf out/**/* || exit 0
+rm -rf "${build_dir}"/**/* || exit 0
 
 # Run our compile script
-doCompile
+doCompile "${build_dir}"
 
 # Now let's go have some fun with the cloned repo
-cd out
+cd "${build_dir}"
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
@@ -49,13 +65,8 @@ git diff --quiet && {
 git add --all .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
-# Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
-ENCRYPTED_KEY_VAR="encrypted_c7d371b9a595_key"
-ENCRYPTED_IV_VAR="encrypted_c7d371b9a595_iv"
-ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in deploy_key.enc -out deploy_key -d
-chmod 600 deploy_key
+# Add the deploy key to the ssh agent for git commits
+chmod 600 .private/deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 

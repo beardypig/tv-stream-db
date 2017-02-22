@@ -5,12 +5,14 @@ python:
 before_install:
 - pip install --disable-pip-version-check --upgrade pip
 - openssl aes-256-cbc -K $encrypted_c7d371b9a595_key -iv $encrypted_c7d371b9a595_iv
-  -in deploy_key.enc -out deploy_key -d
+  -in .private/deploy_key.enc -out deploy_key -d
 
 install:
-- pip install -r requirements.txt
+- pip install -r ./scripts/requirements.txt
 
-script: ./deploy-site.sh
+script:
+- python -m pytest ./scripts/tests
+- ./scripts/generators/html/deploy-site.sh
 
 env:
   global:

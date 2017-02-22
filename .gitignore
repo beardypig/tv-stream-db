@@ -24,6 +24,7 @@ sdist/
 var/
 wheels/
 out/
+.dist/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -65,7 +66,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-templates/_build/
+_build/
 
 # PyBuilder
 target/
@@ -96,3 +97,4 @@ ENV/
 # key
 deploy_key
 
+!/scripts/generators/html/templates/
