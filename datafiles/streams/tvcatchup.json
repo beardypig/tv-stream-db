@@ -62,7 +62,11 @@
      "title": "S4C"},
     {"name": "bbcalba",
      "url": "http://tvcatchup.com/watch/bbcalba",
-     "title": "BBC Alba"},
+     "title": "BBC Alba",
+     "attributes": {
+       "language": "gla"
+     }
+    },
     {"name": "tvwarehouse",
      "url": "http://tvcatchup.com/watch/tvwarehouse",
      "title": "TV Warehouse"},

@@ -466,7 +466,10 @@
     },
     {"name": "bbcalba",
      "url": "http://www.tvplayer.com/watch/bbcalba",
-     "title": "BBC Alba"
+     "title": "BBC Alba",
+     "attributes": {
+       "language": "gla"
+     }
     },
     {"name": "communitychannel",
      "url": "http://www.tvplayer.com/watch/communitychannel",
