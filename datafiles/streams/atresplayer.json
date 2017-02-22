@@ -9,12 +9,12 @@
   "streams": [
     {"name": "antena3",
       "title": "Antena 3",
-      "url": "http://www.atresplayer.com/directos/television/antena3/",
+      "url": "http://www.atresplayer.com/directos/television/antena3/"},
       "attributes": {
         "geolocked": false},
     {"name": "lasexta",
       "title": "La Sexta",
-      "url": "http://www.atresplayer.com/directos/television/lasexta/",
+      "url": "http://www.atresplayer.com/directos/television/lasexta/"},
       "attributes": {
         "geolocked": false},
     {"name": "neox",
