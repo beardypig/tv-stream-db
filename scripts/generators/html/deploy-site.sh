@@ -50,7 +50,7 @@ rm -rf "${build_dir}"/**/* || exit 0
 doCompile "${build_dir}"
 
 # Now let's go have some fun with the cloned repo
-cd "${build_dir}"
+pushd "${build_dir}"
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
@@ -65,10 +65,13 @@ git diff --quiet && {
 git add --all .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
+popd
 # Add the deploy key to the ssh agent for git commits
 chmod 600 .private/deploy_key
 eval `ssh-agent -s`
-ssh-add deploy_key
+ssh-add .private/deploy_key
 
+pushd "${build_dir}"
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TARGET_BRANCH
+popd
