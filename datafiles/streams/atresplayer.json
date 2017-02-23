@@ -9,14 +9,14 @@
   "streams": [
     {"name": "antena3",
       "title": "Antena 3",
-      "url": "http://www.atresplayer.com/directos/television/antena3/"},
+      "url": "http://www.atresplayer.com/directos/television/antena3/",
       "attributes": {
-        "geolocked": false},
+        "geolocked": false}},
     {"name": "lasexta",
       "title": "La Sexta",
-      "url": "http://www.atresplayer.com/directos/television/lasexta/"},
+      "url": "http://www.atresplayer.com/directos/television/lasexta/",
       "attributes": {
-        "geolocked": false},
+        "geolocked": false}},
     {"name": "neox",
       "title": "Neox",
       "url": "http://www.atresplayer.com/directos/television/neox/"},
@@ -28,7 +28,6 @@
       "url": "http://www.atresplayer.com/directos/television/mega/"},
     {"name": "atreseries",
       "title": "Atreseries",
-      "url": "http://www.atresplayer.com/directos/television/atreseries/"}
-      
+      "url": "http://www.atresplayer.com/directos/television/atreseries/"}   
   ]
 }
