@@ -1,0 +1,20 @@
+{
+  "name": "canalplus.fr",
+  "attributes": {
+    "geolocked": true,
+    "region": "FR",
+    "language": "fra",
+    "hd": true
+  },
+  "streams": [
+    {"name": "canalplus",
+      "title": "Canal Plus",
+      "url": "http://www.canalplus.fr/pid3580-live-tv-clair.html"},
+    {"name": "c8",
+      "title": "C8",
+      "url": "http://www.c8.fr/pid5323-c8-live.html"},
+    {"name": "cstar",
+      "title": "Cstar",
+      "url": "http://www.cstar.fr/pid5322-cstar-live.html"}
+  ]
+}
