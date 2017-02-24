@@ -4,8 +4,7 @@ python:
 
 before_install:
 - pip install --disable-pip-version-check --upgrade pip
-- openssl aes-256-cbc -K $encrypted_c7d371b9a595_key -iv $encrypted_c7d371b9a595_iv
-  -in .private/deploy_key.enc -out deploy_key -d
+- .private/decrypt.sh
 
 install:
 - pip install -r ./scripts/requirements.txt
