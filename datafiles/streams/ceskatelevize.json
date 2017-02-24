@@ -1,0 +1,31 @@
+{
+  "name": "ceskatelevize.cz",
+  "attributes": {
+    "geolocked": true,
+    "region": "CZ",
+    "language": "cze",
+    "hd": true
+  },
+  "streams": [
+    {"name": "ct1",
+      "title": "CT 1",
+      "url": "http://www.ceskatelevize.cz/ct1/zive/"},
+    {"name": "ct2",
+      "title": "CT 2",
+      "url": "http://www.ceskatelevize.cz/ct2/zive/"}, 
+    {"name": "ct24",
+      "title": "CT 24",
+      "url": "http://www.ceskatelevize.cz/ct24",
+      "attributes": {
+        "geolocked": false}},
+    {"name": "sport",
+      "title": "CT Sport",
+      "url": "http://www.ceskatelevize.cz/sport/zive-vysilani/"},
+    {"name": "decko",
+      "title": "CT Decko",
+      "url": "http://decko.ceskatelevize.cz/zive"},
+    {"name": "art",
+      "title": "CT Art",
+      "url": "http://www.ceskatelevize.cz/art/zive/"}   
+  ]
+}
