@@ -1,0 +1,28 @@
+{
+  "name": "itv.com",
+  "attributes": {
+    "geolocked": true,
+    "region": "GB",
+    "language": "eng"
+  },
+  "streams": [
+    {"name": "itv",
+      "title": "ITV",
+      "url": "http://www.itv.com/hub/itv"},
+    {"name": "itv2",
+      "title": "ITV 2",
+      "url": "http://www.itv.com/hub/itv2"},
+    {"name": "itvbe",
+      "title": "ITV Be",
+      "url": "http://www.itv.com/hub/itvbe"},
+    {"name": "itv3",
+      "title": "ITV 3",
+      "url": "http://www.itv.com/hub/itv3"},
+    {"name": "itv4",
+      "title": "ITV 4",
+      "url": "http://www.itv.com/hub/itv4"},
+    {"name": "citv",
+      "title": "Citv",
+      "url": "http://www.itv.com/hub/citv"}   
+  ]
+}
