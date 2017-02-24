@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+set -e
 # Pull requests and commits to other branches shouldn't try to decrypt the private key
-if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "master" ]; then
     exit 0
 fi
 

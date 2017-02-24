@@ -6,6 +6,8 @@ TARGET_BRANCH="gh-pages"
 
 build_dir=".dist/html"
 
+git --version
+
 function log {
     echo "[$(date --rfc-3339=seconds)]: $*" >&2
 }
@@ -38,13 +40,13 @@ SHA=$(git rev-parse --verify HEAD)
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deploy)
-git clone $REPO "${build_dir}"
+git clone ${REPO} "${build_dir}"
 pushd "${build_dir}"
-git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-popd
-
+git checkout -b $TARGET_BRANCH origin/$TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+git pull
 # Clean out existing contents
-rm -rf "${build_dir}"/**/* || exit 0
+rm -rf * || exit 1
+popd
 
 # Run our compile script
 doCompile "${build_dir}"
@@ -55,6 +57,7 @@ git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+git diff
 git diff --quiet && {
     echo "No changes to the output on this push; exiting."
     exit 0
