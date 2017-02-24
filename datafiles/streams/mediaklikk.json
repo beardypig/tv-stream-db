@@ -1,0 +1,28 @@
+{
+  "name": "mediaklikk.hu",
+  "attributes": {
+    "geolocked": false,
+    "region": "HU",
+    "language": "hun"
+  },
+  "streams": [
+    {"name": "m1",
+      "title": "M1",
+      "url": "http://www.mediaklikk.hu/m1-elo/"},
+    {"name": "m2",
+      "title": "M2",
+      "url": "http://www.mediaklikk.hu/m2-elo"},
+    {"name": "m4",
+      "title": "M4",
+      "url": "http://www.mediaklikk.hu/m4-elo"},
+    {"name": "m5",
+      "title": "M5",
+      "url": "http://www.mediaklikk.hu/m5-elo"},
+    {"name": "duna",
+      "title": "Duna",
+      "url": "http://www.mediaklikk.hu/duna-elo"},
+    {"name": "duna-world",
+      "title": "Duna World",
+      "url": "http://www.mediaklikk.hu/duna-world-elo"}   
+  ]
+}
