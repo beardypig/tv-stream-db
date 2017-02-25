@@ -1,0 +1,42 @@
+{
+  "name": "npo.nl",
+  "attributes": {
+    "geolocked": true,
+    "region": "NL",
+    "language": "ned",
+    "hd": false
+  },
+  "streams": [
+    {"name": "npo-1",
+      "title": "NPO 1",
+      "url": "http://www.npo.nl/live/npo-1"},
+    {"name": "npo-2",
+      "title": "NPO 2",
+      "url": "http://www.npo.nl/live/npo-2"},
+    {"name": "npo3",
+      "title": "NPO 3",
+      "url": "http://www.npo.nl/npo3"},
+    {"name": "npo-nieuws",
+      "title": "NPO Nieuws",
+      "url": "http://www.npo.nl/live/npo-nieuws",
+      "attributes": {
+        "geolocked": false}},
+    {"name": "npo-cultura",
+      "title": "NPO Cultura",
+      "url": "http://www.npo.nl/live/npo-cultura"},
+    {"name": "npo-101",
+      "title": "NPO 101",
+      "url": "http://www.npo.nl/live/npo-101"},
+    {"name": "npo-politiek",
+      "title": "NPO Politiek",
+      "url": "http://www.npo.nl/live/npo-politiek",  
+      "attributes": {
+        "geolocked": false}},
+    {"name": "npo-best",
+      "title": "NPO Best",
+      "url": "http://www.npo.nl/live/npo-best"},
+    {"name": "npo-zappxtra",
+      "title": "NPO Zapp Xtra",
+      "url": "http://www.npo.nl/live/npo-zappxtra"}  
+  ]
+}
