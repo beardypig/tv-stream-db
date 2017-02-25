@@ -1,0 +1,23 @@
+{
+  "name": "mitele.es",
+  "attributes": {
+    "geolocked": true,
+    "region": "ES",
+    "language": "esp",
+    "hd": true
+  },
+  "streams": [
+    {"name": "telecinco",
+      "title": "Telecinco",
+      "url": "http://www.mitele.es/directo/telecinco"},
+    {"name": "cuatro",
+      "title": "Cuatro",
+      "url": "http://www.mitele.es/directo/cuatro"},
+    {"name": "bemad",
+      "title": "Bemad",
+      "url": "http://www.mitele.es/directo/bemad"},
+    {"name": "boing",
+      "title": "Boing",
+      "url": "http://www.mitele.es/directo/boing"}   
+  ]
+}
