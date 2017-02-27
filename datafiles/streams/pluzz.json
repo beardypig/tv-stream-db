@@ -1,0 +1,31 @@
+{
+  "name": "pluzz.francetv.fr",
+  "attributes": {
+    "geolocked": true,
+    "region": "FR",
+    "language": "fre",
+    "hd": false
+  },
+  "streams": [
+    {"name": "france2",
+      "title": "France 2",
+      "url": "http://pluzz.francetv.fr/france2"},
+    {"name": "france3",
+      "title": "France 3",
+      "url": "http://pluzz.francetv.fr/france3"},
+    {"name": "france4",
+      "title": "France 4",
+      "url": "http://pluzz.francetv.fr/france4"},
+    {"name": "france5",
+      "title": "France 5",
+      "url": "http://pluzz.francetv.fr/france5"},
+    {"name": "franceo",
+      "title": "France Ô",
+      "url": "http://pluzz.francetv.fr/franceo"},
+    {"name": "franceinfo",
+      "title": "France Info",
+      "url": "http://pluzz.francetv.fr/franceinfo",
+      "attributes": {
+        "geolocked": false}}
+  ]
+}
