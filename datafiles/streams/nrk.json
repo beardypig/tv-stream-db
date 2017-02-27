@@ -1,0 +1,23 @@
+{
+  "name": "tv.nrk.no",
+  "attributes": {
+    "geolocked": true,
+    "region": "NO",
+    "language": "nor",
+    "hd": true
+  },
+  "streams": [
+    {"name": "nrk1",
+      "title": "NRK 1",
+      "url": "https://tv.nrk.no/direkte/nrk1"},
+    {"name": "nrk2",
+      "title": "NRK 2",
+      "url": "https://tv.nrk.no/direkte/nrk2"},
+    {"name": "nrk3",
+      "title": "NRK 3",
+      "url": "https://tv.nrk.no/direkte/nrk3"},
+    {"name": "nrksuper",
+      "title": "NRK Super",
+      "url": "https://tv.nrk.no/direkte/nrksuper"}
+ ]
+}
