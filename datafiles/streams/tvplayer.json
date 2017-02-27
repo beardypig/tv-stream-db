@@ -16,16 +16,19 @@
     },
     {"name": "itv",
      "url": "http://www.tvplayer.com/watch/itv",
-     "title": "ITV"
-    },
+     "title": "ITV",
+     "attributes": {
+        "authentication": true}},
     {"name": "channel4",
      "url": "http://www.tvplayer.com/watch/channel4",
      "title": "Channel 4"
     },
     {"name": "five",
      "url": "http://www.tvplayer.com/watch/five",
-     "title": "Five"
-    },
+     "title": "Five",
+     "attributes": {
+        "authentication": true,
+        "drm": true}},
     {"name": "dave",
      "url": "http://www.tvplayer.com/watch/dave",
      "title": "Dave"
@@ -52,32 +55,39 @@
     },
     {"name": "itv2",
      "url": "http://www.tvplayer.com/watch/itv2",
-     "title": "ITV 2"
-    },
+     "title": "ITV 2",
+     "attributes": {
+        "authentication": true}},
     {"name": "itv3",
      "url": "http://www.tvplayer.com/watch/itv3",
-     "title": "ITV 3"
-    },
+     "title": "ITV 3",
+     "attributes": {
+        "authentication": true}},
     {"name": "more4",
      "url": "http://www.tvplayer.com/watch/more4",
-     "title": "More4"
-    },
+     "title": "More4",
+     "attributes": {
+        "authentication": true}},
     {"name": "itv4",
      "url": "http://www.tvplayer.com/watch/itv4",
-     "title": "ITV 4"
-    },
+     "title": "ITV 4",
+     "attributes": {
+        "authentication": true}},
     {"name": "itvbe",
      "url": "http://www.tvplayer.com/watch/itvbe",
-     "title": "ITVBe"
-    },
+     "title": "ITVBe",
+     "attributes": {
+        "authentication": true}},
     {"name": "5star",
      "url": "http://www.tvplayer.com/watch/5star",
-     "title": "5STAR"
-    },
+     "title": "5STAR",
+     "attributes": {
+        "authentication": true}},
     {"name": "spike",
      "url": "http://www.tvplayer.com/watch/spike",
-     "title": "Spike"
-    },
+     "title": "Spike",
+     "attributes": {
+        "authentication": true}},
     {"name": "quest",
      "url": "http://www.tvplayer.com/watch/quest",
      "title": "Quest"
@@ -96,8 +106,9 @@
     },
     {"name": "4seven",
      "url": "http://www.tvplayer.com/watch/4seven",
-     "title": "4Seven"
-    },
+     "title": "4Seven",
+     "attributes": {
+        "authentication": true}},
     {"name": "cnninternationaleurope",
      "url": "http://www.tvplayer.com/watch/cnninternationaleurope",
      "title": "CNN International Europe"
@@ -112,8 +123,9 @@
     },
     {"name": "betblackenttv",
      "url": "http://www.tvplayer.com/watch/betblackenttv",
-     "title": "BET:BlackEntTV"
-    },
+     "title": "BET:BlackEntTV",
+     "attributes": {
+        "authentication": true}},
     {"name": "lifetime",
      "url": "http://www.tvplayer.com/watch/lifetime",
      "title": "Lifetime",
@@ -285,8 +297,9 @@
     },
     {"name": "citv",
      "url": "http://www.tvplayer.com/watch/citv",
-     "title": "CITV"
-    },
+     "title": "CITV",
+     "attributes": {
+        "authentication": true}},
     {"name": "nickelodeon",
      "url": "http://www.tvplayer.com/watch/nickelodeon",
      "title": "Nickelodeon",
@@ -462,15 +475,14 @@
     },
     {"name": "s4c",
      "url": "http://www.tvplayer.com/watch/s4c",
-     "title": "S4C"
-    },
+     "title": "S4C",
+     "attributes": {
+       "language": "cym"}},
     {"name": "bbcalba",
      "url": "http://www.tvplayer.com/watch/bbcalba",
      "title": "BBC Alba",
      "attributes": {
-       "language": "gla"
-     }
-    },
+       "language": "gla"}},
     {"name": "communitychannel",
      "url": "http://www.tvplayer.com/watch/communitychannel",
      "title": "Community Channel"
