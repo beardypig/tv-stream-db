@@ -1,0 +1,28 @@
+{
+  "name": "rtvs.sk",
+  "attributes": {
+    "geolocked": true,
+    "region": "SK",
+    "language": "svk",
+    "hd": true
+  },
+  "streams": [
+    {"name": "live-1",
+      "title": "RTVS 1",
+      "url": "http://www.rtvs.sk/televizia/live-1"},
+    {"name": "live-2",
+      "title": "RTVS 2",
+      "url": "http://www.rtvs.sk/televizia/live-2"},
+    {"name": "live-o",
+      "title": "RTVS O",
+      "url": "http://www.rtvs.sk/televizia/live-o",
+      "attributes": {
+        "hd": false}},
+    {"name": "live-nr-sr",
+      "title": "TV NR-SR",
+      "url": "http://www.rtvs.sk/televizia/live-nr-sr",
+      "attributes": {
+        "geolocked": false}, 
+        "hd": false}
+  ]
+}
