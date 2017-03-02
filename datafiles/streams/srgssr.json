@@ -1,0 +1,50 @@
+{
+  "name": "srgssr.ch",
+  "attributes": {
+    "geolocked": true,
+    "region": "CH",
+    "hd": false
+  },
+  "streams": [
+    {"name": "srf-1",
+      "title": "SRF 1",
+      "url": "http://www.srf.ch/livestream/player/srf-1",
+      "attributes": {
+        "language": "ger"}},
+    {"name": "srf-2",
+      "title": "SRF 2",
+      "url": "http://www.srf.ch/livestream/player/srf-2",
+      "attributes": {
+        "language": "ger"}},
+    {"name": "srf-info",
+      "title": "SRF Info",
+      "url": "http://www.srf.ch/livestream/player/srf-info",
+      "attributes": {
+        "language": "ger"}},
+    {"name": "3608506",
+      "title": "RTS Un",
+      "url": "http://www.rts.ch/play/tv/direct#?tvLiveId=3608506",
+      "attributes": {
+        "language": "fre"}},
+    {"name": "3608517",
+      "title": "RTS Deux",
+      "url": "http://www.rts.ch/play/tv/direct#?tvLiveId=3608517",
+      "attributes": {
+        "language": "fre"}},
+    {"name": "1967124",
+      "title": "RTS Info",
+      "url": "http://www.rts.ch/play/tv/direct#?tvLiveId=1967124",
+      "attributes": {
+        "language": "fre"}},
+    {"name": "livestream_La1",
+      "title": "RSI LA 1",
+      "url": "http://www.rsi.ch/play/tv/live#?tvLiveId=livestream_La1",
+      "attributes": {
+        "language": "ita"}},
+    {"name": "livestream_La2",
+      "title": "RSI LA 2",
+      "url": "http://www.rsi.ch/play/tv/live#?tvLiveId=livestream_La2",
+      "attributes": {
+        "language": "ita"}}
+  ]
+}
