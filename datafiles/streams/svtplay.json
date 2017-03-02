@@ -1,0 +1,26 @@
+{
+  "name": "svtplay.se",
+  "attributes": {
+    "geolocked": true,
+    "region": "SE",
+    "language": "swe",
+    "hd": true
+  },
+  "streams": [
+    {"name": "svt1",
+      "title": "SVT 1",
+      "url": "http://www.svtplay.se/kanaler/svt1"},
+   {"name": "svt2",
+      "title": "SVT 2",
+      "url": "http://www.svtplay.se/kanaler/svt2"},
+   {"name": "barnkanalen",
+      "title": "Barnkanalen",
+      "url": "http://www.svtplay.se/kanaler/barnkanalen"},
+   {"name": "svt24",
+      "title": "SVT 24",
+      "url": "http://www.svtplay.se/kanaler/svt24"},
+   {"name": "kunskapskanalen",
+      "title": "Kunskapskanalen",
+      "url": "http://www.svtplay.se/kanaler/kunskapskanalen"}
+  ]
+} 
