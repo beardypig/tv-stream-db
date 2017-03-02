@@ -1,0 +1,35 @@
+{
+  "name": "tf1.fr",
+  "attributes": {
+    "geolocked": true,
+    "region": "FR",
+    "language": "fre",
+    "authentication": true,
+    "hd": true
+  },
+  "streams": [
+    {"name": "tf1",
+      "title": "TF 1",
+      "url": "http://www.tf1.fr/tf1/direct"},
+    {"name": "tmc",
+      "title": "TMC",
+      "url": "http://www.tf1.fr/tmc/direct",
+      "attributes": {
+        "hd": false}},
+    {"name": "nt1",
+      "title": "NT 1",
+      "url": "http://www.tf1.fr/nt1/direct",
+      "attributes": {
+        "hd": false}},
+    {"name": "hd1",
+      "title": "HD 1",
+      "url": "http://www.tf1.fr/hd1/direct",
+      "attributes": {
+        "hd": false}},
+    {"name": "lci",
+      "title": "LCI",
+      "url": "http://www.lci.fr/direct/",
+      "attributes": {    
+        "authentication": false}}
+  ]
+}
