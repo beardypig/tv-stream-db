@@ -1,0 +1,33 @@
+{
+  "name": "zdf.de",
+  "attributes": {
+    "geolocked": true,
+    "region": "DE",
+    "language": "ger",
+    "hd": true
+  },
+  "streams": [
+    {"name": "zdf",
+      "title": "ZDF",
+      "url": "https://www.zdf.de/sender/zdf/zdf-live-beitrag-100.html"},
+    {"name": "zdfneo",
+      "title": "ZDF Neo",
+      "url": "https://www.zdf.de/sender/zdfneo/zdfneo-live-beitrag-100.html"},
+    {"name": "3sat",
+      "title": "3 Sat",
+      "url": "https://www.zdf.de/sender/3sat/3sat-live-beitrag-100.html",
+      "attributes": {    
+        "hd": false}},
+    {"name": "phoenix",
+      "title": "Phoenix",
+      "url": "https://www.zdf.de/sender/phoenix/phoenix-live-beitrag-100.html",
+      "attributes": {    
+        "hd": false}},
+    {"name": "arte",
+      "title": "Arte",
+      "url": "https://www.zdf.de/sender/arte/arte-livestream-100.html"},
+    {"name": "zdfinfo-doku",
+      "title": "ZDF Info",
+      "url": "https://www.zdf.de/dokumentation/zdfinfo-doku/zdfinfo-live-beitrag-100.html"}
+  ]
+}
