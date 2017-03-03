@@ -1,0 +1,30 @@
+{
+  "name": "tvr.by",
+  "attributes": {
+    "geolocked": true,
+    "region": "BY",
+    "language": "blr",
+    "hd": false
+  },
+  "streams": [
+    {"name": "belarus-1",
+      "title": "Belarus 1",
+      "url": "http://www.tvr.by/televidenie/belarus-1/",
+      "attributes": {
+        "geolocked": false}},
+    {"name": "belarus-2",
+      "title": "Belarus 2",
+      "url": "http://www.tvr.by/televidenie/belarus-2/"},
+    {"name": "belarus-3",
+      "title": "Belarus 3",
+      "url": "http://www.tvr.by/televidenie/belarus-3/"},
+    {"name": "belarus-5",
+      "title": "Belarus 5",
+      "url": "http://www.tvr.by/televidenie/belarus-5/"},
+    {"name": "belarus-24",
+      "title": "Belarus 24",
+      "url": "http://www.tvr.by/televidenie/belarus-24/",
+      "attributes": {    
+        "geolocked": false}}
+  ]
+}
