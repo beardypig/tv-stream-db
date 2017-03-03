@@ -1,0 +1,69 @@
+{
+  "name": "trt.net.tr",
+  "attributes": {
+    "geolocked": false,
+    "region": "TR",
+    "language": "tur",
+    "hd": true
+  },
+  "streams": [
+    {"name": "trt1",
+      "title": "TRT 1",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trt1"},
+    {"name": "trtworld",
+      "title": "TRT World",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtworld"},
+    {"name": "trthaber",
+      "title": "TRT Haber",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trthaber"},
+    {"name": "trtspor",
+      "title": "TRT Spor",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtspor"},
+    {"name": "trtavaz",
+      "title": "TRT Avaz",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtavaz",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trtcocuk",
+      "title": "TRT Cocuk",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtcocuk"},
+    {"name": "trtbelgesel",
+      "title": "TRT Belgesel",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtbelgesel"},
+    {"name": "trtmuzik",
+      "title": "TRT Müzik",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtmuzik",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trtarapca",
+      "title": "TRT Arapca",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtarapca",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trtdiyanet",
+      "title": "TRT Diyanet",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtdiyanet",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trtturk",
+      "title": "TRT Türk",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtturk",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trt6",
+      "title": "TRT Kurdi",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trt6",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trtokul",
+      "title": "TRT Okul",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trtokul",
+      "attributes": {    
+        "hd": false}},
+    {"name": "trt3tbmmtv",
+      "title": "TRT 3 - TBMM TV",
+      "url": "http://www.trt.net.tr/Anasayfa/canli.aspx?y=tv&k=trt3tbmmtv",
+      "attributes": {    
+        "hd": false}}
+  ]
+}
