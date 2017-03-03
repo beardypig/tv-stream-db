@@ -1,0 +1,43 @@
+{
+  "name": "tvrplus.ro",
+  "attributes": {
+    "geolocked": true,
+    "region": "RO",
+    "language": "rom",
+    "hd": false
+  },
+  "streams": [
+    {"name": "live-tvr-1",
+      "title": "TVR 1",
+      "url": "http://www.tvrplus.ro/live-tvr-1"},
+    {"name": "live-tvr-hd",
+      "title": "TVR HD",
+      "url": "http://www.tvrplus.ro/live-tvr-hd"},
+    {"name": "live-tvr-2",
+      "title": "TVR 2",
+      "url": "http://www.tvrplus.ro/live-tvr-2"},
+    {"name": "live-tvr-3",
+      "title": "TVR 3",
+      "url": "http://www.tvrplus.ro/live-tvr-3"},
+    {"name": "live-tvr-international",
+      "title": "TVR International",
+      "url": "http://www.tvrplus.ro/live-tvr-international",
+      "attributes": {    
+        "geolocked": false}},
+    {"name": "live-tvr-cluj",
+      "title": "TVR Cluj",
+      "url": "http://www.tvrplus.ro/live-tvr-cluj"},
+    {"name": "live-tvr-craiova",
+      "title": "TVR Craiova",
+      "url": "http://www.tvrplus.ro/live-tvr-craiova"},
+    {"name": "live-tvr-iasi",
+      "title": "TVR Iasi",
+      "url": "http://www.tvrplus.ro/live-tvr-iasi"},
+    {"name": "live-tvr-targu-mures",
+      "title": "TVR Targu Mures",
+      "url": "http://www.tvrplus.ro/live-tvr-targu-mures"},
+    {"name": "live-tvr-timisoara",
+      "title": "TVR Timisoara",
+      "url": "http://www.tvrplus.ro/live-tvr-timisoara"} 
+  ]
+}
