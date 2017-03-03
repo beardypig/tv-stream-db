@@ -33,7 +33,10 @@
       <tbody>
       {% for provider in sorted(streams.keys()) %}
           <tr>
-            <th scope="row" colspan="5">{{ provider }}</th>
+            <th scope="row" colspan="5" id="{{ provider }}">
+                {{ provider }}
+                <a class="headerlink" href="#{{ provider }}" title="Permalink to {{ provider }} streams"><i class="stream-attribute fa fa-link" aria-hidden="true" ></i></a>
+            </th>
           </tr>
 
           {% for stream in streams[provider] %}
