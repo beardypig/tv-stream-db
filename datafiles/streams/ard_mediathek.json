@@ -1,0 +1,83 @@
+{
+  "name": "ardmediathek.de",
+  "attributes": {
+    "geolocked": true,
+    "region": "DE",
+    "language": "ger",
+    "hd": true
+  },
+  "streams": [
+    {"name": "ARD-alpha",
+      "title": "ARD Alpha",
+      "url": "http://www.ardmediathek.de/tv/ARD-alpha/live?kanal=5868"},
+    {"name": "ARTE-deutsch",
+      "title": "Arte Deutsch",
+      "url": "http://www.ardmediathek.de/tv/ARTE-deutsch/live?kanal=5880"},
+    {"name": "BR-Fernsehen",
+      "title": "BR Fernsehen Süd",
+      "url": "http://www.ardmediathek.de/tv/BR-Fernsehen-S%C3%BCd/live?kanal=21518950"},
+    {"name": "Das-Erste",
+      "title": "Das Erste",
+      "url": "http://www.ardmediathek.de/tv/Das-Erste/live?kanal=208",
+      "attributes": {    
+        "hd": false}},
+    {"name": "Deutsche-Welle",
+      "title": "Deutsche Welle",
+      "url": "http://www.ardmediathek.de/tv/Deutsche-Welle/live?kanal=5876",
+      "attributes": {    
+        "hd": false,
+        "geolocked": false}},
+    {"name": "hr-fernsehen",
+      "title": "HR Fernsehen",
+      "url": "http://www.ardmediathek.de/tv/hr-fernsehen/live?kanal=5884",
+      "attributes": {    
+        "geolocked": false}},
+    {"name": "KiKA",
+      "title": "KiKA",
+      "url": "http://www.ardmediathek.de/tv/KiKA/live?kanal=5886",
+      "attributes": {    
+        "geolocked": false}},
+    {"name": "MDR-SACHSEN",
+      "title": "MDR SACHSEN",
+      "url": "http://www.ardmediathek.de/tv/MDR-SACHSEN/live?kanal=1386804"},
+    {"name": "NDR-Niedersachsen",
+      "title": "NDR Niedersachsen",
+      "url": "http://www.ardmediathek.de/tv/NDR-Niedersachsen/live?kanal=21518352",
+      "attributes": {    
+        "geolocked": false}},
+    {"name": "ONE",
+      "title": "One",
+      "url": "http://www.ardmediathek.de/tv/ONE/live?kanal=673348"},
+    {"name": "Phoenix",
+      "title": "Phoenix",
+      "url": "http://www.ardmediathek.de/tv/Phoenix/live?kanal=5888",
+      "attributes": {    
+        "hd": false}},
+     {"name": "rbb-Fernsehen-Brandenburg",
+      "title": "RBB Fernsehen Brandenburg",
+      "url": "http://www.ardmediathek.de/tv/rbb-Fernsehen-Brandenburg/live?kanal=21518356",
+      "attributes": {    
+        "hd": false}},
+     {"name": "SR-Fernsehen",
+      "title": "SR Fernsehen",
+      "url": "http://www.ardmediathek.de/tv/SR-Fernsehen/live?kanal=5870",
+      "attributes": {    
+        "hd": false}},
+     {"name": "SWR-Baden-W%C3%BCrttemberg",
+      "title": "SWR Baden-Württemberg",
+      "url": "http://www.ardmediathek.de/tv/SWR-Baden-W%C3%BCrttemberg/live?kanal=5904"},
+     {"name": "tagesschau24",
+      "title": "Tagesschau 24",
+      "url": "http://www.ardmediathek.de/tv/tagesschau24/live?kanal=5878",
+      "attributes": {    
+        "geolocked": false}},
+     {"name": "WDR-Fernsehen",
+      "title": "WDR Fernsehen",
+      "url": "http://www.ardmediathek.de/tv/WDR-Fernsehen/live?kanal=5902"},
+     {"name": "3sat",
+      "title": "3sat",
+      "url": "http://www.ardmediathek.de/tv/3sat/live?kanal=5900",
+      "attributes": {    
+        "hd": false}}
+  ]
+}
