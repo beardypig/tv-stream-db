@@ -1,0 +1,29 @@
+{
+  "name": "dr.dk",
+  "attributes": {
+    "geolocked": true,
+    "region": "DK",
+    "language": "dnk",
+    "hd": true
+  },
+  "streams": [
+    {"name": "dr1",
+      "title": "DR 1",
+      "url": "https://www.dr.dk/tv/live/dr1"},
+    {"name": "dr2",
+      "title": "DR 2",
+      "url": "https://www.dr.dk/tv/live/dr2"},
+    {"name": "dr3",
+      "title": "DR 3",
+      "url": "https://www.dr.dk/tv/live/dr3"},
+    {"name": "dr-k",
+      "title": "DR-K",
+      "url": "https://www.dr.dk/tv/live/dr-k"},
+    {"name": "dr-ramasjang",
+      "title": "DR Ramasjang",
+      "url": "https://www.dr.dk/tv/live/dr-ramasjang"},
+    {"name": "dr-ultra",
+      "title": "DR Ultra",
+      "url": "https://www.dr.dk/tv/live/dr-ultra"}
+  ]
+}
