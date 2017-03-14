@@ -1,0 +1,47 @@
+{
+  "name": "bbc.co.uk",
+  "attributes": {
+    "geolocked": true,
+    "region": "GB",
+    "language": "eng",
+    "hd": true
+  },
+  "streams": [
+    {"name": "bbcone",
+      "title": "BBC One",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcone"},
+    {"name": "bbctwo",
+      "title": "BBC Two",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbctwo"},
+    {"name": "bbcthree",
+      "title": "BBC Three",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcthree"},
+    {"name": "bbcfour",
+      "title": "BBC Four",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcfour"},
+    {"name": "cbbc",
+      "title": "CBBC",
+      "url": "http://www.bbc.co.uk/iplayer/live/cbbc"},
+    {"name": "cbeebies",
+      "title": "Cbeebies",
+      "url": "http://www.bbc.co.uk/iplayer/live/cbeebies"},
+    {"name": "bbcnews",
+      "title": "BBC News",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcnews"},
+    {"name": "bbcparliament",
+      "title": "BBC Parliament",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcparliament"}, 
+    {"name": "bbcalba",
+      "title": "BBC Alba",
+      "url": "http://www.bbc.co.uk/iplayer/live/bbcalba",
+      "attributes": {
+        "language": "gla",
+        "hd": false}},
+    {"name": "s4c",
+      "title": "S4C",
+      "url": "http://www.bbc.co.uk/iplayer/live/s4c",
+      "attributes": {
+        "language": "cym",
+        "hd": false}}
+  ]
+}
